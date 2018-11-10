@@ -6,7 +6,7 @@
  */
 
 //create array of different body parts to be shown
-imgParts = [
+var imgParts = [
   "assets/images/hung.png",
   "assets/images/leftleghung.png",
   "assets/images/rightleghung.png",
