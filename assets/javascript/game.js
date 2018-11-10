@@ -160,7 +160,8 @@ function changeImage() {
 function checkGameOver() {
   changeImage();
   if (gameOver) {
-    if (confirm("Play again?")) {
+      var playAgain = confirm("Play again?");
+    if (playAgain) {
       resetGame();
     } else {
       alert("Thanks for playing! \n Game by Garret Rueckert");
