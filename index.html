@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="assets/javascript/game.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Holtwood+One+SC" rel="stylesheet">
     <title>Western Hangman!</title>
   </head>
   <body>
@@ -32,11 +32,15 @@
                   <h2>Press any letter key to guess!</h2>
                   <h2>Wins: <span id="wins">0</span></h2>
                   <h2>Losses: <span id="losses">0</span></h2>
-                  <h2>Current Word<br><span id="answer"></span></h2>
+                  <h2>Current Word<br>
+                    <span id="answer" onload="setupAns()"></span>
+                
+                </h2>
                   <h2>Letters Already Guessed</h2>
                   <h2 id="ltrsGuessed"></h2>
               </div>
           </div>
       </div>
+      <script src="assets/javascript/game.js"></script>
   </body>
 </html>

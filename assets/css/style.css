@@ -25,4 +25,10 @@ body{
     border-color: antiquewhite;
     background-color: rgba(250, 93, 0, 0.67);
     text-align: center;
+    font-family: 'Holtwood One SC', serif;
+    line-height: 40px;
+}
+
+h2{
+    margin-bottom: .5em;
 }
