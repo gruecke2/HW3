@@ -174,6 +174,7 @@ document.onkeyup = function(event) {
   if (/^[^a-z]*([a-z])[^a-z]*$/i.test(event.key)) {
     // Determines which key was pressed.
     var g = event.key;
+    console.log(g);
     Game.playerGuess(g);
     checkGameOver();
   } else {
